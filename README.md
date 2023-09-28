@@ -9,7 +9,11 @@ Steps to Install Terraform on Ubuntu device:
 5. terraform --version -->verify the version
 
 Commands followed:
-
+1.  terraform init --> initializes a working directory containing Terraform configuration files
+2.  terraform validate --> validates the configuration files in a directory
+3.  terraform plan --> creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure
+4.  terraform apply --> executes the actions proposed in a terraform plan
+5.  terraform destroy --> to destroy the project infrastructure and free up the allocated resources
 
 
 Issues encountered:
